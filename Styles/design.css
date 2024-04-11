@@ -155,7 +155,7 @@ html {
 /* ACCORDION */
 .accordion-section {
     background-color: #f9f9f9;
-    color: #fff;
+    color: #000000;
     padding: 2rem;
     text-align: center;
 }
@@ -291,16 +291,29 @@ img, video {
     font-size: 2.5rem;
 
 }
+/* larger screens */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* This ensures equal spacing */
+}
 
-/* Mobile styles */
+.card {
+    width: calc(33% - 40px); /* Three cards in a row with spacing */
+    margin: 20px;
+
+}
+
+/* mobile device */
 @media screen and (max-width: 768px) {
-    .hero-text h1 {
-        font-size: 1.5rem;
+    .card-section {
+        flex-direction: column;
+        align-items: center; /
     }
-    
-    /* Adjust hero section size if necessary */
-    .hero-video-overlay {
-        height: auto; 
+
+    .card {
+        width: 80%;
+        margin: 10px 0; 
     }
 }
 
