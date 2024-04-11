@@ -13,8 +13,8 @@ body {
     padding: 20px; 
 }
 .content-section p {
-    font-size: 1.3rem; /* or any other size that suits your design */
-    /* Other styles... */
+    font-size: 1.3rem; 
+    
 }
 
 
@@ -299,11 +299,11 @@ img, video {
 .card-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; /* This ensures equal spacing */
+    justify-content: space-around; 
 }
 
 .card {
-    width: calc(33% - 40px); /* Three cards in a row with spacing */
+    width: calc(33% - 40px); 
     margin: 20px;
 
 }
