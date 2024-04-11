@@ -19,7 +19,7 @@ body {
     max-width: 800px; 
 }
 .content-section h2, .content-section p {
-    color: #D4AF37; 
+    color: #000000; 
 }
 
 /* GOLDEN WHITE ANIMATION TEXT */
@@ -54,7 +54,7 @@ body {
 
 .hero-nav a {
     text-decoration: none;
-    color: #D4AF37;
+    color: #000000;
     font-weight: bold;
     font-size: 16px;
 }
@@ -81,7 +81,7 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #D4AF37;
+    color: #000000;
     text-align: center;
     z-index: 10;
 }
@@ -112,14 +112,14 @@ html {
 
 .hero-nav a {
     text-decoration: none;
-    color: #D4AF37; 
+    color: #000000; 
     font-weight: bold;
     font-size: 18px; 
 }
 
 .hero-nav a:hover, .hero-nav a:focus {
-    color: #D4AF37; 
-    text-shadow: 0 0 5px #D4AF37;
+    color: #ffe100; 
+    text-shadow: 0 0 5px #fff700;
 }
 
 
@@ -168,7 +168,7 @@ html {
     padding: 1rem;
     text-align: left;
     width: 100%;
-    color: #D4AF37; 
+    color: #000000; 
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -192,8 +192,8 @@ html {
 
 .accordion-content {
     display: none; 
-    background-color: #f9f9f9;
-    color: #D4AF37; 
+    background-color: #ffffff;
+    color: #000000; 
     border-top: 1px solid #333; 
     padding: 1rem;
     transition: max-height 0.3s ease-out; 
@@ -234,13 +234,13 @@ footer {
 }
 
 .footer-section ul li a {
-    color: #D4AF37;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: #e9d900;
+    color: #000000;
 }
 
 .social-icons {
@@ -260,7 +260,7 @@ footer {
 
 .footer-bottom {
     text-align: center;
-    border-top: 1px solid #D4AF37;
+    border-top: 1px solid #000000;
     padding-top: 20px;
     margin-top: 20px;
 }
