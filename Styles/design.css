@@ -7,6 +7,9 @@ body {
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .content-section {
     text-align: center;
@@ -46,6 +49,7 @@ body {
     }
 }
 
+
 .hero-nav ul {
     list-style: none;
     margin: 0;
@@ -70,14 +74,6 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
-
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-
 
 .hero-text {
     position: absolute;
@@ -108,7 +104,6 @@ html {
 
 }
 
-
 .hero-nav li {
     margin: 0 25px;
 }
@@ -125,8 +120,10 @@ html {
     text-shadow: 0 0 5px #fff700;
 }
 
+.hero-text {
 
-
+    top: 20%;
+}
 
 /* CARD SECTION */
 .card-section {
